@@ -1,0 +1,127 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {540, 549}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "background_color" : "RGBA(0.226415,0.226415,0.226415,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "1E2CE0B1-DE34-4F14-9210-21927388A199"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{12, 16}, {333, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "instructions_label",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "CB084E5E-AB6E-4A80-8343-629ABE91B57C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter radius to calculate circumference:",
+          "number_of_lines" : 0,
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{353, 16}, {181, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "1BD246CF-21DF-4CC7-B26A-4C03352832E4",
+          "background_color" : "RGBA(0.363208,0.363208,0.363208,1.000000)",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(0.058962,0.058962,0.058962,1.000000)",
+          "placeholder" : "enter radius here",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "radius_input",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{147, 56}, {250, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "radius_output",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "5D97F8BF-9F8D-46C5-A2D6-5AEC520C1319",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "radius:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{233, 96}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate",
+          "border_width" : 2,
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "46CAB5A5-7F5F-4C63-A98F-0A46AE7E8F82",
+          "class" : "Button",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(0.900000,0.966667,1.000000,1.000000)",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{225, 238}, {100, 100}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "iob:close_circled_24",
+          "class" : "ImageView",
+          "name" : "circle",
+          "uuid" : "F2795BE6-AD2A-4091-B1F5-2586D1DC0C03"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
